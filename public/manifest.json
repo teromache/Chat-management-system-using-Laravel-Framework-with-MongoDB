@@ -1,0 +1,17 @@
+{
+    "name": "Virtual Buddy App: Chat Management System",
+    "short_name": "VBA:CMS",
+    "start_url": "/index.php",
+    "background_color": "#6777ef",
+    "description": "Chat Management System for Virtual Buddy App",
+    "display": "fullscreen",
+    "theme_color": "#6777ef",
+    "icons": [
+        {
+            "src": "logo.PNG",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
