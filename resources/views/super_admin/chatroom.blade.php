@@ -123,7 +123,7 @@
                                             <th>Date Create</th>
                                             <th>Last Update</th>
                                             <!-- <th>Last Update</th> -->
-                                            <th style="text-align:center">Action</th>
+                                            <!--<th style="text-align:center">Action</th>-->
                                         </tr>
                                     </thead>
                                     
@@ -135,9 +135,9 @@
                                 <td>{{ $data->chatName }}</td>
                                 <td>{{ $data->createdAt->toDateTime()->format('d-m-Y') }}</td>
                                 <td>{{ $data->updatedAt->toDateTime()->format('d-m-Y') }}</td>
-                                <td style="text-align:center">
+                               <!-- <td style="text-align:center">
                                     <a href="#" class="btn btn-info"><span class="fa fa-eye"></span></a>
-                                </td>
+                                </td>-->
                              
                                 </tr>
                             <?php $no++;?>
