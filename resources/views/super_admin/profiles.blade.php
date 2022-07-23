@@ -174,7 +174,7 @@
                                         <div class="form-group row">
                                         <label for="inputName2" class="col-sm-2 col-form-label">Phone Number</label>
                                         <div class="col-sm-10">
-                                            <input type="phone" class="form-control" id="inputName2" placeholder="Phone number" value="{{ Auth::user()->phone_number }}" name="phone" required>
+                                            <input type="phone" class="form-control" id="inputName2" placeholder="Phone number" value="{{ Auth::user()->phone }}" name="phone" required>
                                             <span class="text-danger error-text phone_error"></span>
                                         </div>
                                         </div>
