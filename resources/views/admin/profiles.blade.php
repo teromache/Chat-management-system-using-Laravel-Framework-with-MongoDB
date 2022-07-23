@@ -68,7 +68,7 @@
                                 Dashboard
                             </a>
                             <div class="sb-sidenav-menu-heading">Chat Room Info</div>
-                            <a class="nav-link collapsed" href="/chatroom_admin">
+                            <a class="nav-link collapsed" href="/chatroom">
                                 <div class="sb-nav-link-icon"><i class="fas fa-comment-dots"></i></div>
                                 Chat Room 
                             </a>
@@ -80,8 +80,8 @@
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="/adminlist_admin">Admin</a>
-                                    <a class="nav-link" href="/VB_User_admin">VB User</a>
+                                    <a class="nav-link" href="/adminlist">Admin</a>
+                                    <a class="nav-link" href="/VB_User_Admin">VB User</a>
                                 </nav>
                             </div>
                             <div class="sb-sidenav-menu-heading">Report</div>                           
@@ -92,8 +92,8 @@
                             </a>
                             <div class="collapse" id="collapseReports" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="/user_report">User Report</a>
-                                    <a class="nav-link" href="/report_analytic">Report Analytics</a>
+                                    <a class="nav-link" href="/user_report_admin">User Report</a>
+                                    <a class="nav-link" href="/report_analytic_admin">Report Analytics</a>
                                 </nav>
                             </div>
                         </div>
