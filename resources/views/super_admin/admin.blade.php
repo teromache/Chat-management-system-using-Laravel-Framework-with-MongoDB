@@ -335,6 +335,16 @@
                             </div>
 
                             <div class="form-group">
+                                <strong><label class="col-form-label">Position:</label></strong>
+                                <input type="text" name="position" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <strong><label class="col-form-label">Phone number:</label></strong>
+                                <input type="text" name="phone" class="form-control">
+                            </div>
+
+                            <div class="form-group">
                                 <strong><label class="col-form-label">Password:</label></strong>
                                 <input type="password" class="form-control" name="password">
                             </div>
