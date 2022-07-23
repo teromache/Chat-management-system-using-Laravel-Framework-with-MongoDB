@@ -26,6 +26,7 @@ class UserController extends Controller
         $user->is_admin = 0;
         $user->phone = $request->get('phone');
         $user->address = $request->get('address');
+        $user->picture = null;
 
         if($role == "Super Admin")
         {{ $user->is_admin = 1; }}
